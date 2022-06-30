@@ -1,0 +1,131 @@
+body {
+    background-image: radial-gradient(rgb(255, 196, 0) ,rgb(255, 182, 108));
+    background-attachment: fixed;
+    font-family:'Caveat';
+    
+    
+}
+.container {
+    box-sizing: border-box;
+    box-shadow:1rem 0.5rem 1rem rgb(85, 81, 81);
+    margin-inline: auto;
+    width:140ch;
+    height: 140ch;
+    background-color: rgba(213, 133, 35, 0.901);
+    border-radius:2rem;
+    margin-block:1rem;
+    padding:1rem 1rem;
+    
+}
+.nume{
+    font-size: 3rem;
+    margin-block:0;
+    display: flex;
+    padding-top: 10px;
+
+}
+.menu_bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana;
+    font-size: 1rem;
+    color: bisque;
+    margin-block-end: 1.5rem;
+    justify-content: flex-end;
+    position:absolute;
+    top: 25px;
+    right: 260px;
+}
+.menu_bar ul{
+    display:flex;
+    margin-inline-end: 1rem;
+    list-style-type: circle;
+    gap:2rem;
+    
+}
+
+.element {
+    
+    color:rgb(73, 67, 67);
+    display:inline-block;
+    border-inline-end: 0.5em solid black;
+    border-radius: 2rem;
+    padding:1em 2em;
+}
+.element.active {
+    background-color: #fe7b7b;
+}
+.element:hover {
+    background-color: #e95d5d;
+
+}
+.box1{
+    display: flex;
+
+}
+.first-text{
+    margin-block-end: 2.5rem;
+    color:rgb(60, 55, 55);
+    font-size:2.5rem;
+    padding-top: 10px;
+}
+.description1{
+    color:rgb(60, 55, 55);
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 270px;
+    top: 12rem;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.description2{
+    color:rgb(60, 55, 55);
+    font-size:1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left:270px;
+    padding-left: 10px;
+    top:14rem;
+    padding-top: 20px;
+}
+
+.button{
+    background-color:rgb(148, 136, 136);
+    color:wheat;
+    margin-block-start: 1rem;
+    font-size:1rem;
+    border-radius:0.5rem;
+    height: 2.5rem;
+    width:5rem ;
+    text-align: center;
+    padding: 0.2rem 1rem ;
+    position: absolute;
+    left:17rem;
+    padding-left:0.5rem;
+    top:20rem;
+    padding-top:1.25rem;
+    text-decoration: none;
+ 
+
+}
+.image img {
+
+    margin-inline-end: 16px;
+    height:272px;
+    position:absolute;
+    right:260px;
+    top: 128px;
+
+}
+.box2{
+    box-sizing: border-box;
+    border:0.5rem solid rgb(253, 138, 31);
+    font-size:2rem;
+    height:25rem;
+    margin-block: 15rem;
+
+    
+
+}
