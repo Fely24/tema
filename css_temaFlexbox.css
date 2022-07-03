@@ -1,0 +1,130 @@
+.body {
+    background: radial-gradient(rgb(239, 199, 66) ,rgb(238, 181, 123));
+    background-attachment: fixed;
+    background-position: center;
+    font-family:'Caveat';
+  }
+  .box1{
+    box-sizing: border-box;
+    box-shadow:1rem 0.5rem 1rem rgb(85, 81, 81);
+    margin-inline: auto;
+    width:140ch;
+    height: 140ch;
+    background-color: rgba(213, 133, 35, 0.901);
+    border-radius:2rem;
+    margin-block:1rem;
+    padding:1rem 1rem;
+
+  }
+
+  h1{
+    font-size: 3rem;
+    margin-block:0;
+    display: flex;
+    padding-top: 10px;
+  }
+.menu_bar {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 1rem;
+  color: bisque;
+  margin-block-end: 1.5rem;
+  justify-content: flex-end;
+}
+a:hover {
+  background-color: #e95d5d;
+  border-inline-end: 0.4rem solid #fbb174;
+}
+a:active{
+  background-color: #fe7b7b;
+}
+a:link,
+a:visited {
+  color: rgb(70, 64, 64);
+}
+a {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  padding: 1em 2em;
+  border-inline-end: 0.5rem solid black;
+  text-decoration-line: none;
+  border-radius: 2rem;
+  display: inline-block;
+}
+   
+.box2 {
+  box-sizing:border-box;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+}
+h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0rem;
+  width: 17rem;
+  height: 8rem;
+}
+.titlu1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(60, 55, 55);
+  font-size: 1rem;
+  margin: 0rem;
+  width: 19rem;
+  height: 4rem;
+  padding-top: 2rem;
+}
+.titlu2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(60, 55, 55);
+  font-size: 1rem;
+  margin: 0rem;
+  width: 19rem;
+  height: 3rem;
+  padding-bottom: 1rem;
+
+}
+.button{
+  padding: 0.5rem 0.5rem;
+  border: 0.2rem solid transparent;
+  text-decoration-line: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  border-radius: 2.5rem;
+  background-color: #f5cf72;
+  text-transform: uppercase;
+}
+.button:hover {
+  color: white;
+  background-color: #ffcb6a;
+  border-radius: 2.5rem;
+}
+.image {
+  width: 18rem;
+  height: 18rem;
+  float:right;
+  position: relative;
+  bottom:20rem;
+  border-radius: 1rem;
+}
+  
+.box3 {
+  font-family:'Caveat';
+  height: fit-content;
+  margin: 1rem 1rem;
+  margin-block: 4rem;
+  color: rgb(41, 41, 41);
+  font-size: 1.5rem;
+  box-sizing: content-box;
+  border:0.5rem solid rgb(253, 138, 31);
+  box-shadow: 1rem 1rem 2rem rgb(207, 110, 0);
+  
+}
